@@ -7,8 +7,6 @@ import "@amsterdam/design-system-css/dist/index.css"
 import "@amsterdam/design-system-tokens/dist/index.css"
 // import "@amsterdam/design-system-tokens/dist/compact.css"
 
-import "./app.css"
-
 export function Layout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
