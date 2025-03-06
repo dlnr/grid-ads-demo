@@ -1,4 +1,4 @@
-import {Screen, Grid, Header, Heading, Footer} from "@amsterdam/design-system-react"
+import {Screen, Grid, Header, Heading, Footer, Paragraph} from "@amsterdam/design-system-react"
 
 import styles from './GridDemo.module.css'
 
@@ -11,16 +11,20 @@ export function GridDemo() {
           <header>
             <Heading level={3}>Main</Heading>
           </header>
-          <div className={styles.left}>Left</div>
-          <div className={styles.right}>Right</div>
 
+          <div className={styles.left}>
+            <Paragraph>Left</Paragraph>
+          </div>
+          <div className={styles.right}>
+              <Paragraph>Right</Paragraph>
+          </div>
 
-            <div class={styles.block}></div>
-            <div class={styles.block}></div>
-            <div class={styles.block}></div>
-            <div class={styles.block}></div>
-            <div class={styles.block}></div>
-            <div class={styles.block}></div>
+          <div className={styles.block}></div>
+          <div className={styles.block}></div>
+          <div className={styles.block}></div>
+          <div className={styles.block}></div>
+          <div className={styles.block}></div>
+          <div className={styles.block}></div>
 
         </Grid.Cell>
         <Grid.Cell span={{narrow: 4, medium: 2, wide: 3}} as="aside">

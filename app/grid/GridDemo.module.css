@@ -35,7 +35,6 @@
 
 .right {
 	grid-column: span 4;
-	/* grid-row: 3; */
 
 	@media (min-width: 36rem) {
 		grid-column: span 2;
